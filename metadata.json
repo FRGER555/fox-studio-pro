@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix FoxStudio — AI-Powered Music Production Suite",
+  "description": "Professional Digital Audio Workstation featuring Multi-track Timeline, Live Mixer, 3-Stage AI Mastering DSP, Real-time Spectrum Visualizer, Piano Roll, and WAV Export.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"],
+  "version": "42.0.0",
+  "localRuntime": true
+}

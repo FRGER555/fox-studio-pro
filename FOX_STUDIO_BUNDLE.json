@@ -1,0 +1,27 @@
+{
+  "name": "FOX STUDIO PRO — Unified Local Bundle",
+  "version": "42.0.0",
+  "architecture": {
+    "ui": "React + TypeScript + Vite",
+    "local_api": "Express localhost API",
+    "native": "JUCE C++20 JSON-lines engine",
+    "transport": "localhost HTTP to supervised native process",
+    "ai": "local deterministic engine with optional external model/cloud provider",
+    "plugins": "JUCE plugin host + bundled FOX-native processors"
+  },
+  "included": {
+    "frontend_source": true,
+    "native_source": true,
+    "native_protocol": true,
+    "local_server": true,
+    "plugin_registry": true,
+    "models": true,
+    "documentation": true,
+    "build_scripts": true,
+    "validation_tools": true,
+    "recovery_and_render": true,
+    "midi_audio_vocal_ai_warp": true
+  },
+  "third_party_policy": "Third-party plugin binaries are not redistributed. Install licensed plugins locally and use FOX plugin scan.",
+  "localRuntime": true
+}
